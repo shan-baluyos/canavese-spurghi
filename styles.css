@@ -392,6 +392,17 @@ html {
     object-fit: cover;
 }
 
+.banner-first {
+    object-position: center 71%;
+}
+
+.banner-second {
+    object-position: center 74%;
+}
+
+.banner-third {
+    object-position: center 58%;
+}
 /* Text overlay */
 
 .slide-text {
