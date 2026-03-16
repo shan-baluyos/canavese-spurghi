@@ -409,3 +409,22 @@ html {
 .slide-text h2 {
     margin-bottom: 0.5rem;
 }
+
+/* Call button inside banner */
+
+.call-button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.7rem 1.5rem;
+    background-color: var(--green);
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    text-decoration: none;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.call-button:hover {
+    background-color: var(--teal);
+    transform: translateY(-2px);
+}
