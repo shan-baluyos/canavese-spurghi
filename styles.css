@@ -360,3 +360,52 @@ html {
         font-size: 0.9rem;
     }
 }
+/* HERO BANNER */
+
+.hero-banner {
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider {
+    position: relative;
+    height: 100%;
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.slide.active {
+    opacity: 1;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Text overlay */
+
+.slide-text {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgba(0,0,0,0.5);
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    text-align: center;
+}
+
+.slide-text h2 {
+    margin-bottom: 0.5rem;
+}
